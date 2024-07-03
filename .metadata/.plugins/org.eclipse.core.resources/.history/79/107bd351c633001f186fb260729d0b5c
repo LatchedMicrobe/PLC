@@ -1,0 +1,16 @@
+package abstractClasslecture;
+
+
+public class Conta extends ContaAbstrata{
+	private double saldo;
+	private String numero;
+	
+	public Conta(String num) {
+		super(num);
+	}
+	
+	public void debitar(double valor) {
+		this.saldo-=valor;
+	}
+	
+}

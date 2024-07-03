@@ -1,0 +1,5 @@
+package abstractClasslecture;
+
+public interface RepositorioContas {
+
+}

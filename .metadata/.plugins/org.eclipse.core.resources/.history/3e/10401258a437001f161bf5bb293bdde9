@@ -1,0 +1,41 @@
+package abstractClasslecture;
+
+public class RepositorioContasArray implements RepositorioContas {
+	
+	private ContaAbstrata[] array;
+	
+	public RepositorioContasArray() {
+		this.array = new ContaAbstrata[100];
+	}
+
+	@Override
+	public void inserir(ContaAbstrata conta) {
+		
+
+	}
+
+	@Override
+	public ContaAbstrata procurar(String num) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void remover(String num) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void atualizar(ContaAbstrata conta) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public boolean existe(String num) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,15 @@
+package abstractClasslecture;
+
+public class Main {
+
+	public static void main(String[] args) {
+		ContaImposto c = new ContaImposto("123");
+		c.creditar(10);
+		Banco b = new Banco();
+		b.addConta(c);
+	
+		
+		System.out.println(c.getSaldo());
+	}
+
+}

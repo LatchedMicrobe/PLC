@@ -1,0 +1,12 @@
+package abstractClasslecture;
+
+public class ContaImposto extends ContaAbstrata{
+	
+	public ContaImposto(String num) {
+		super(num);
+	}
+	
+	public abstract void debitar(double valor) {
+		
+	}
+}

@@ -1,0 +1,5 @@
+package abstractClasslecture;
+
+public abstract class ContaAbstrata {
+
+}

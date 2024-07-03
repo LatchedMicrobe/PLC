@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="segundaAulaPlc.Curso"/>
+    <fullyQualifiedTypeName name="segundaAulaPlc.Aluno"/>
+    <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="abstractClasslecture.ContaAbstrata"/>
+    <fullyQualifiedTypeName name="abstractClasslecture.ContaImposto"/>
+    <fullyQualifiedTypeName name="abstractClasslecture.RepositorioContas"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="abstractClasslecture.RepositorioContasArray"/>
+</qualifiedTypeNameHistroy>

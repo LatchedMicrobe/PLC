@@ -1,0 +1,39 @@
+package abstractClasslecture;
+
+import java.util.ArrayList;
+public class Banco {
+	private ArrayList<Conta> contas;
+	
+	public Banco() {
+		this.contas = new ArrayList<Conta>();
+	}
+	
+	public void addConta(Conta c) {
+		contas.add(c);
+	}
+	
+	public Conta findContaByNum(String num) {
+		for (Conta c : contas) {
+			if(c.getNumero() == num) {
+				return c;
+			}
+		}
+		System.out.println("Conta não achada");
+		return null;
+	}
+	
+	public void renderBonus(String num) {
+		Conta c = this.findContaByNum(num);
+		if(c instanceof ContaEspecial) {
+			((ContaEspecial) c).renderBonus();
+		}
+		else {
+			System.out.println("objeto não encontrado");
+		}
+	}
+	
+	public void transferir(String numFonte, String numDest, double valor) {
+		this.findContaByNum(numFonte).debitar(valor);
+		this.findContaByNum(numDest).creditar(valor);
+	}
+}
